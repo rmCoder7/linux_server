@@ -1,0 +1,11 @@
+there are 3 steps to configure the https
+
+first we neeed to configure the httpd. And enable to Firewall
+
+Secondt. install ssl and add it to website
+
+Third, type this "Vim /etc/httpd/conf.d/http.conf" and access to then type Director and Virtualhost
+cat /etc/httpd/conf.d/ssl.conf   | grep localhost 
+#or
+grep localhost /etc/httpd/conf.d/ssl.conf
+#(here add your server name or website's name), we use this in order to check if the ssl add is with our website or not.
