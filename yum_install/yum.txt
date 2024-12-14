@@ -1,0 +1,4 @@
+this is basically we use in evry server in inital state in order to add all the packages to the host machine
+or server machine. This is primary work and when we work with virtual machine that time we need to add manually the bios 
+link in "vim rhel8.repo" .
+
