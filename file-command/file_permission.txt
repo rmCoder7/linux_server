@@ -3,7 +3,9 @@
 =====================
   R= read -) only read permission see , W = write -) see and change , x = executions -) write, read and executions
 
-permission path -) file permission type = links = owner status = owner Groupe name = size =      Date           =   file name
+permission path -) 
+
+file permission type = links = owner status = owner Groupe name = size =      Date           =   file name
                     drwxr-xr-x.        2          root           root              19      Dec 12 01:30          account
                     -----------
                 (type)User-group-Other
