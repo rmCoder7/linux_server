@@ -9,3 +9,37 @@ file permission type = links = owner status = owner Groupe name = size =      Da
   drwxr-xr-x.           2          root           root                 19      Dec 12 01:30          account
   -----------
 type-rootUser-group-Other
+
+
+
+
+file symbol type
+===============
+
+there are 7 types of file in Linux : 
+
+- = regular file  (usually use in cretae file, "touch file")
+
+d = directory (folde that usally use, command is "mkdir")
+
+l = link 
+
+c = Device file ( Represents devices that handle data character by character, such as terminals or serial ports,
+ /dev/input/mouse2 , we are using mouse , hence it create a mouse for that)
+
+
+s = socket file  (It enables processes to exchange data, either on the same machine or between different 
+machines over a network., find it under in /run)
+
+p = Named pipe and FIFO (it is FIRST IN FIRST OUT, Ccommand mkfifo)
+
+b = block device (A Block Device in Linux represents hardware devices that handle data as
+ fixed-sized blocks, typically for storage purposes, find it in /dev /sda1 )
+
+
+*** if we want to find any file types, "find / -type s"
+*** if want to see any partitoin in disk then see, "fdisk" 
+*** if want to see all type of folder along with "ls -al"
+*** if we want to start with ,cd /, then we call it "Absoulte path". like cd /var/log. And if we jump directly
+     this path we called it relative path. like "cd log"
+*** Mentioned "pwd: is give you right path you are in.
